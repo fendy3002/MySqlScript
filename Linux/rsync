@@ -1,0 +1,1 @@
+rsync -avz -e 'ssh -p <ssh_port>' --progress  <user>@<server>:<directory_or_files> <target>
